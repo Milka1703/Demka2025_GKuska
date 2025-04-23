@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e0f772f90ea0497d8e4a0693f83ce266" Name="Diagram1">
+        <EntityTypeShape EntityType="hotel_managementModel.Cleaning_Schedule" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Guest_Services" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Guests" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Integrations" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Payments" Width="1.5" PointX="8.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Reservations" Width="1.5" PointX="6" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Room_Access" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Rooms" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Services" Width="1.5" PointX="6" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Statistics_hotel" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hotel_managementModel.Users" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="hotel_managementModel.FK__Cleaning___clean__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Cleaning___room___5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Guest_Ser__reser__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Guest_Ser__servi__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Reservati__guest__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Room_Acce__guest__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Payments__reserv__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Reservati__room___4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="hotel_managementModel.FK__Room_Acce__room___619B8048" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="hotel_managementModel.C__EFMigrationsHistory" Width="1.5" PointX="8.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
